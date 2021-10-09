@@ -8,13 +8,19 @@ import {
 } from "react-bootstrap";
 import Cart from "./Cart";
 import Profile from "./Profile";
+import logo from "../../logo.png";
 
 export default function Menu() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">
-          <h1>Strive Store</h1>
+        <Navbar.Brand href="/">
+          <img
+            alt=""
+            src={logo}
+            width="220"
+            className="d-inline-block align-top"
+          />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

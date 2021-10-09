@@ -31,7 +31,7 @@ export default function Home() {
           </Row>
         </Container>
       </Container>
-      <Container fluid className="content">
+      <Container fluid className="content py-5">
         <Container>
           <Row>
             {status === "loading" && (

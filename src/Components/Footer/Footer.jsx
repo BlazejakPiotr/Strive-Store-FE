@@ -38,7 +38,7 @@ export default function Footer() {
       </Row>
 
       <Row className="mt-5">
-        <Col sm={6} md={4} className="footer">
+        <Col sm={12} md={4} className="footer">
           <h6>Check our social media</h6>
           <Facebook size={28} className="m-2" />
           <Twitter size={28} className="m-2" />
