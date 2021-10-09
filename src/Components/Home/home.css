@@ -4,9 +4,18 @@
 
 .categories {
   background-color: #fff;
-  font-size: 0.85rem;
 }
 
 .content {
   background-color: #fff;
+}
+
+.product-list-item-name {
+  margin-bottom: 0px;
+  font-size: 0.75rem;
+}
+.product-list-item-price {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: blue;
 }
