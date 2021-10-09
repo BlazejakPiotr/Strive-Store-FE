@@ -7,7 +7,7 @@
 }
 
 .content {
-  background-color: #fff;
+  background-color: #eeeeee;
 }
 
 .product-list-item-name {
@@ -18,4 +18,13 @@
   margin-bottom: 0px;
   font-weight: bold;
   color: blue;
+}
+
+div .footer ul li {
+  list-style: none;
+  font-size: 0.85rem;
+  line-height: 2;
+}
+.footer {
+  font-size: 0.85rem;
 }

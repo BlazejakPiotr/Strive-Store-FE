@@ -31,22 +31,24 @@ export default function Home() {
           </Row>
         </Container>
       </Container>
-      <Container>
-        <Row>
-          {status === "loading" && (
-            <div className="pt-5 text-center">
-              <Spinner animation="border" variant="primary" />
-            </div>
-          )}
-          {status === "error" && (
-            <div>
-              <Alert variant="danger" className="text-center">
-                Something went wrong. Try to refresh page.
-              </Alert>
-            </div>
-          )}
-          {status === "success" && <ProductList data={data} />}
-        </Row>
+      <Container fluid className="content">
+        <Container>
+          <Row>
+            {status === "loading" && (
+              <div className="pt-5 text-center">
+                <Spinner animation="border" variant="primary" />
+              </div>
+            )}
+            {status === "error" && (
+              <div>
+                <Alert variant="danger" className="text-center">
+                  Something went wrong. Try to refresh page.
+                </Alert>
+              </div>
+            )}
+            {status === "success" && <ProductList data={data} />}
+          </Row>
+        </Container>
       </Container>
     </>
   );

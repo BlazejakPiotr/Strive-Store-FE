@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 export default function ProductListItem({ data }) {
   return (
     <Col sm={4} md={3} lg={2} className="my-2">
-      <Card className="product-list-item">
-        <Card.Img variant="top" src={data.imageUrl} />
+      <Card>
+        <Card.Img
+          variant="top"
+          src={data.imageUrl}
+          className="product-list-item"
+        />
         <Card.Body>
           <Card.Text>
             <p className="product-list-item-name">
